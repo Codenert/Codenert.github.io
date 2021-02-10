@@ -5,6 +5,7 @@
     --primary-color: #4C243B;
     --secondary-color: #B84A62;
     --accent-color: #AC7B84;
+    --link-color: #F5A6E6;
 
 
 
@@ -20,7 +21,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--link-color);
 }
 
 
@@ -74,6 +75,10 @@ ul.nav-bar-items li {
     padding: var(--nav-bar-height);
     width: 100px;
     text-align: center;
+}
+
+ul.nav-bar-items li a {
+    color: white;
 }
 
 .title {
