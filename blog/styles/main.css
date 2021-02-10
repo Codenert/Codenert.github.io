@@ -1,7 +1,12 @@
 :root {
     --nav-bar-item-padding: 20px;
     --nav-bar-height: 15px;
+    --vertical-spacing: 60px;
     --primary-color: #4C243B;
+    --secondary-color: #B84A62;
+    --accent-color: #AC7B84;
+
+
 
 }
 
@@ -13,34 +18,92 @@ body {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+figure {
+    width: 300px;
+}
+
+.responsible {
+    width: 100%;
+  height: auto;
+}
+
 .nav-bar {
     width: 100%;
-    background-color: #AC7B84;
+    background-color: var(--secondary-color);
+    margin-bottom: var(--vertical-spacing);
+    
 }
 
 ul.nav-bar-items {
+    display: inline;
     list-style-type:none;
-    text-align: center;
+}
 
+.nav-bar-title {
+    display: inline;
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
 }
 
 ul.nav-bar-items li {
+    font-weight: bolder;
     display: inline-block;
     padding: 0px var(--nav-bar-item-padding) 0px var(--nav-bar-item-padding);
     font-size: large;
     padding: var(--nav-bar-height);
     width: 100px;
+    text-align: center;
+}
+
+.title {
+    color: var(--accent-color);
 }
 
 ul.nav-bar-items li:hover {
     cursor: pointer;
-    background-color: white;
-    color: var(--primary-color);
+    color: white;
     font-weight: bold;
+    background-color: var(--accent-color);
 }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
 
 h1 {
     color: #E4DFDA;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .text-center {
