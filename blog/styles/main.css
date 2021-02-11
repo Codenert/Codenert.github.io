@@ -33,6 +33,11 @@ h1 {
     margin-bottom: 60px;
 }
 
+.blog-list-image {
+    width: 400px;
+    height: auto;
+}
+
 .blog-list-header {
     color: var(--secondary-color)
 }
