@@ -33,6 +33,10 @@ h1 {
     margin-bottom: 60px;
 }
 
+.blog-list-header {
+    color: var(--secondary-color)
+}
+
 
 
 p {
