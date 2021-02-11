@@ -24,7 +24,9 @@ a {
     color: var(--link-color);
 }
 
-
+h1 {
+    text-align: center;
+}
 
 
 
