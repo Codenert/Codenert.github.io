@@ -28,6 +28,10 @@ h1 {
     text-align: center;
 }
 
+.blog-list {
+    overflow: auto;
+    margin-bottom: 60px;
+}
 
 
 
