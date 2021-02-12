@@ -167,11 +167,11 @@ div {
 
 
 footer {
+    height: var(--footer-height);
+    line-height: var(--footer-height);
     position: fixed; 
     text-align: center;
     bottom: 0; 
-    padding-top: calc(var(--footer-height)/2);
-    padding-bottom: calc(var(--footer-height)/2);
 
     width: 100%; 
     background-color: var(--primary-color);
