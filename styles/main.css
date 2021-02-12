@@ -7,6 +7,8 @@
     --accent-color: #AC7B84;
     --link-color: #F5A6E6;
     --footer-height: 3.5rem;
+    --navigation-height: 15px;
+
 
 
 
@@ -68,47 +70,41 @@ h3, h4 {
 }
 
 .nav-bar {
-    width: 100%;
+    padding: 20px;
     background-color: var(--secondary-color);
-    margin-bottom: var(--vertical-spacing);
-    
-}
-
-ul.nav-bar-items {
-    display: inline;
-    list-style-type:none;
 }
 
 .nav-bar-title {
     display: inline;
     font-size: x-large;
+}
+
+ul.nav-bar-items {
+    display: inline;
+    list-style: none;
     color: white;
-    font-weight: bolder;
 }
 
 ul.nav-bar-items li {
-    font-weight: bolder;
-    display: inline-block;
-    padding: 0px var(--nav-bar-item-padding) 0px var(--nav-bar-item-padding);
-    font-size: large;
-    padding: var(--nav-bar-height);
-    width: 100px;
-    text-align: center;
+    display: inline;
+    padding: 20px;
 }
 
 ul.nav-bar-items li a {
     color: white;
+    font-size: large;
+
+
 }
+
 
 .title {
     color: var(--accent-color);
+    
 }
 
 ul.nav-bar-items li:hover {
     cursor: pointer;
-    color: white;
-    font-weight: bold;
-    background-color: var(--accent-color);
 }
 
 .container {
@@ -117,10 +113,48 @@ ul.nav-bar-items li:hover {
     margin-right: auto;
     margin-left: auto;
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .nav-bar .container, .nav-bar {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .nav-bar-title {
+        font-size: large;
+        display: none;
+    }
+    
+    ul.nav-bar-items {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul.nav-bar-items li {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid var(--primary-color);
+    }
+    
+    ul.nav-bar-items li a {
+        font-size: large;
+    }
+    
+  }
+
+
+
+
   @media (min-width: 768px) {
     .container {
       width: 750px;
     }
+
+
+
   }
   @media (min-width: 992px) {
     .container {
@@ -146,10 +180,6 @@ h1 {
     left: 0;
     width: 350px;
     float: left;
-}
-
-div {
-    margin-bottom: 20px;
 }
 
 .right-content {
