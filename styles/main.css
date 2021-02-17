@@ -2,16 +2,22 @@
     --nav-bar-item-padding: 20px;
     --nav-bar-height: 15px;
     --vertical-spacing: 60px;
-    --dark-primary-color: #CBF3F0;
     /*--primary-color:  #4C243B;
     --secondary-color: #B84A62;
     --accent-color: #AC7B84;
-    --link-color: #F5A6E6; FF9F1C FFBF69*/
+    --link-color: #F5A6E6; FF9F1C FFBF69
 
     --primary-color:  #2EC4B6;
     --secondary-color: #CBF3F0;
     --accent-color: #FF9F1C;
-    --link-color: #FF9F1C;
+    --link-color: #FF9F1C;*/
+
+
+    --primary-color:  #D77A61;
+    --secondary-color: #EFF1F3;
+    --accent-color: #D77A61;
+    --link-color: #D8B4A0;
+    --header-color: #223843;
 
 
     --footer-height: 3.5rem;
@@ -46,7 +52,12 @@ h1 {
 }
 
 h2 {
-    padding: 40px 0 10px 0;
+    padding: 0px 0 10px 0;
+    color: var(--header-color);
+}
+
+.content {
+    background-color: white;
 }
 
 .blog-list-img figure {
@@ -85,7 +96,6 @@ p {
 }
 
 .technical-content {
-    background-color: var(--dark-primary-color);
 }
 
 figure {
@@ -104,6 +114,7 @@ figure {
 .nav-bar {
     padding: 20px;
     background-color: var(--primary-color);
+
 }
 
 .nav-bar-title {
@@ -118,14 +129,17 @@ ul.nav-bar-items {
 
 ul.nav-bar-items li {
     display: inline;
-    border: 1px solid black;
+    border: 1px solid #DBD3D8;
+
     padding: 10px;
 }
 
 ul.nav-bar-items li a {
     font-size: large;
+
     width: 100px;
-    color: black;
+    color: #DBD3D8;
+
 
 
 }
@@ -154,6 +168,8 @@ ul.nav-bar-items li:hover {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .code-sample-img {
@@ -161,6 +177,10 @@ ul.nav-bar-items li:hover {
   }
 
   @media only screen and (max-width: 600px) {
+
+    .container {
+        margin: 10px;
+    }
 
     .nav-bar .container, .nav-bar {
         padding: 0;
@@ -249,7 +269,7 @@ footer {
     position: fixed; 
     text-align: center;
     bottom: 0; 
-
+    color: var(--primary-color);
     width: 100%; 
     background-color: var(--secondary-color);
     border-top: 1px solid white;
