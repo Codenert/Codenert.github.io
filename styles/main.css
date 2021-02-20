@@ -70,8 +70,13 @@ h2 {
     margin-bottom: 60px;
 }
 
-.blog-list-image {
+.image {
     width: 800px;
+    height: auto;
+}
+
+.blog-list-image {
+    width: 400px;
     height: auto;
 }
 
@@ -221,7 +226,7 @@ ul.nav-bar-items li:hover {
         display: initial;
     }
 
-    .blog-list-image {
+    .blog-list-image, .image {
         width: 100%;
     }
 
