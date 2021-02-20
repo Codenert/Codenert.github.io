@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kateti's Blog</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav-bar">
+    <div class="container">
+      <ul class="nav-bar-items">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Javascript Fundamentals</h2>
+    <h3>HTML and CSS</h3>
+    <p>A website is made up of HTML, CSS and Javascript, it build to serve a purpose such as for social interaction such
+      as facebook. As mentioned earlier a website is made up of
+      three things HTML, CSS and Javascript and each serve a purpose. HTML is main core component that made the website,
+      CSS make the website look appearing which get visitors to like
+      and visit the website and Javascript support the function of website so visitors can interact with website.
+    </p>
+    <p>To fully understand HTML and CSS think about a messy room before and after as shown below. The top image shows a
+      website without css and bottom image shows a website with css.</p>
+    <figure>
+      <img class="blog-list-image" src="../images/messy room before and after.jpg" alt="messy room before and after">
+      <figcaption><span>Photo from <a class="responsive"
+            href="https://www.stayathomemum.com.au/houseandhome/organisation/20-photos-of-messy-rooms-before-and-after-cleaning/">Link
+            to the image</a></span></figcaption>
+    </figure>
+    <br>
+    <p>Real Example</p>
+    <figure>
+      <img class="blog-list-image" src="../images/html without css.png" alt="messy room before and after">
+    </figure>
+    <figure>
+      <img class="blog-list-image" src="../images/html with css.png" alt="messy room before and after">
+    </figure>
+
+    <h3>Control Flow and Loops</h3>
+    <p>Control flow is a flow of execution a computer instructions from top to bottom. Sometimes those instructions
+      might not be executed depends on the conditions that may occur. To fully understand it properly, lets thing about
+      a shopping list.</p>
+    <p>Shopping List</p>
+    <ul>
+      <li>Milk</li>
+      <li>Corn beef</li>
+      <li>Chocolate</li>
+      <li>Coffee</li>
+      <li>Bread</li>
+      <li>Wine</li>
+      <li>Toilet paper</li>
+      <li>Water</li>
+    </ul>
+    <p>From our shopping list above, the most and common way of doing a shopping is by going through a shopping list
+      from top to bottom. Sometimes we might only get a few things because of the budget. Sometimes we
+      might already have wine or bread so we dont have to get them. Sometimes the shop might not have the item we are
+      looking for and etc.
+    </p>
+    <h4>Code Example: Control Flow</h4>
+    <p>Playground: <a href="https://www.w3schools.com/code/tryit.asp?filename=GNTRT92AYZ1W" target="_blank">https://www.w3schools.com/code/tryit.asp?filename=GNTRT92AYZ1W</a></p>
+    <img class="blog-list-image" src="../images/control flow.png" alt="dom with devtool">
+    <img class="blog-list-image" src="../images/control flow output.png" alt="dom with devtool">
+    <p>From looking at code above, the program run from top to bottom, initialize the budget, shopping list, store, calling the shoppinng function, shopping function is executed, result is returned, output the result to html, program stop.</p>
+    
+    <p>Loops is set of instructions that are executed until a condition is met. Think of it as doing a workout in the
+      gym, you follow your workout plan and you do it repeatively until you done a set. For example, bench press workout
+    </p>
+    <p>Bench Press Instruction</p>
+    <ul>
+      <li>3-4 sets</li>
+      <li>8-10 reps</li>
+    </ul>
+    <p>Condition here is 3 or 4 sets</p>
+    <p>Instruction is doing 8-10 reps that is repeated until 4 sets is completed</p>
+    <h4>Code Example: Loop with for, while and do-while</h4>
+    <p>Playground: <a href="https://www.w3schools.com/code/tryit.asp?filename=GNTS6FNCPJOR" target="_blank">https://www.w3schools.com/code/tryit.asp?filename=GNTS6FNCPJOR</a></p>
+    <img class="blog-list-image" src="../images/loop.png" alt="dom with devtool">
+    <img class="blog-list-image" src="../images/loop output.png" alt="dom with devtool">
+    <h3>DOM</h3>
+    <p>Stands for the Document Object Model and is a standard data model and programming interface that expose objects,
+      properties, methods, and events in the HTML. Earlier in the HTML and CSS section, I introduced
+      Javascript and its purpose. Javascript makes the web page functional, How? Through the DOM, without the DOM a
+      website cannot be interactive and fulfill its purpose.</p>
+
+    <p>A lot of us have interacted with a website, for example, when we log in to Facebook. We fill up the login form
+      and then we clicked the Login button. In the background, Javascript interacts with the DOM to access
+      our username and password from the input fields then sends those credentials to the backend somewhere in the
+      cloud, and then Javascript again interacts with the DOM to display the login failed message or take us to our home
+      page.</p>
+      <p>Example in action with facebook.com</p>
+        <img class="blog-list-image" src="../images/dom with devtool.png" alt="dom with devtool">
+        <p>Left hand side is the actual facebook login page and on the right hand side is the devtool that have access to the DOM.</p>
+        <img class="blog-list-image" src="../images/dom with devtool 1.png" alt="dom with devtool">
+        <p>I wrote a code in the devtool that attach a click event listener to login button, to get both the username and password from two input fields and output the message to the console and to the user. The image below show all that but you can imagine that is how facebook web developers might do it but send those credentials to their server somewhere in the cloud.
+        </p>
+        <img class="blog-list-image" src="../images/dom with devtool 2.png" alt="dom with devtool">
+
+    <h3>Accessing data from Arrays and Objects</h3>
+    <p>Data from arrays can be accessed using index whereas objects can be accessed using a property. Yeah that might be
+      confusing but lets examine this example, imagine you have 4 children.</p>
+    <figure>
+      <img class="blog-list-image" src="../images/children.jpg" alt="family">
+      <figcaption><span>Photo by <a
+            href="https://unsplash.com/@judebeck?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jude
+            Beck</a> on <a
+            href="https://unsplash.com/s/photos/brothers-and-sisters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      </figcaption>
+    </figure>
+    <p>Let say we have Mike, John, Sophie and Susan, if we look at this based on an array perpective we can access Mike
+      using his position as being the first child, John the second, Sophie the third and lastly Susan. Now, for an
+      object perpective,
+      we can get Mike and John by being males in the family, Sophie and Susan by being females in the family. To get
+      Mike we can use his property as being the tallest of all the four children.
+    </p>
+    <h4>Code Example: Accessing data from Array</h4>
+    <p>Playground: <a href="https://www.w3schools.com/code/tryit.asp?filename=GNTM4Z5RP4WH"
+        target="_blank">https://www.w3schools.com/code/tryit.asp?filename=GNTM4Z5RP4WH</a></p>
+    <img class="blog-list-image" src="../images/array access 1.png" alt="html code">
+    <p>Output</p>
+    <img class="blog-list-image" src="../images/array access 2.png" alt="html code">
+
+    <h4>Code Example: Accessing data from Object</h4>
+    <p>Playground: <a href="https://www.w3schools.com/code/tryit.asp?filename=GNTNULYAN60Q"
+        target="_blank">https://www.w3schools.com/code/tryit.asp?filename=GNTNULYAN60Q</a></p>
+    <img class="blog-list-image" src="../images/data access 1.png" alt="html code">
+    <p>Output</p>
+    <img class="blog-list-image" src="../images/data access 2.png" alt="html code">
+    <p>The key point here to take away is that data in the array can be accessed using index or position as shown in the
+      example above, 'children[0]' whereas to access data in the object is by using a property thus
+      'children[key].height' </p>
+    <h3>Functions</h3>
+    <p>A function is a block of code that perform a particular task only when something invokes it. Its basically holds
+      the logic of the program that can be executed multiple times. Functions are useful to serve one particular
+      purpose, reusable, easy for testing
+      and etc.
+    </p>
+    <h4>Code Example: Function</h4>
+    <p>Playground: <a href="https://www.w3schools.com/code/tryit.asp?filename=GNTOLRS93K1J"
+        target="_blank">https://www.w3schools.com/code/tryit.asp?filename=GNTOLRS93K1J</a></p>
+    <img class="blog-list-image" src="../images/function.png" alt="html code">
+    <p>Output</p>
+    <img class="blog-list-image" src="../images/function output.png" alt="html code">
+  </div>
+  <footer>&copy;Copyright 2021 - Kateti's Blog</footer>
+</body>
+
+</html>
