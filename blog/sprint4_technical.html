@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kateti's Blog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="container">
+            <ul class="nav-bar-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog/blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Problem Solving</h2>
+        <p>
+            One time when I was doing a challenge where I have to make the first letter of every word capitalized. The
+            challenge is so simple, the sentence is to be passed to a function and the function should return a modified
+            sentence with every first letter in every word capitalized. So the problem is so simple, I wrote my
+            pseudocode as shown below
+        </p>
+        <ol>
+            <li>Change the whole sentence to lower case</li>
+            <li>Split the whole sentence by a space</li>
+            <li>Go through every word</li>
+            <li>Split each word</li>
+            <li>Capitalize the first letter</li>
+            <li>Join them back</li>
+            <li>After going through every word in a sentence join them back and return the new sentence</li>
+        </ol>
+        <p>
+            That was the step I was following and then I ran the test and the test was giving me a fail. So I was
+            surprised, I looked at my pseudocode I knew it correct. So I ran the test again and still fail so I started
+            to output every word that I capitalized and surprisingly it did what I intended to do but the test result
+            still gave me a fail message. At that moment, I stop what I was doing went outside, and gave myself a break.
+            I went back on the problem again I carefully looked at every line in my code and I realized that I
+            misunderstood the 'map' build-in function for the array.
+        </p>
+        <h4>Problem</h4>
+        <img class="image" src="../images/problem.png" alt="Problem"/>
+        <h4>Solution</h4>
+        <img class="image" src="../images/solution.png" alt="Problem"/>
+        <p>
+            What I learned from doing this challenge that it is so important to reflect on your code and really understand what each line of code is doing.
+            Apply problem solving techniques as much as possible such as doing the pseudocode, taking breaks, rubber duck methods and etc because they really
+            works. These solving problem techniques really helps to tackle problems and also helps to know where you are likely to make a mistake if do encounter 
+            such problem.
+        </p>
+    </div>
+    <footer>&copy;Copyright 2021 - Kateti's Blog</footer>
+</body>
+
+</html>
